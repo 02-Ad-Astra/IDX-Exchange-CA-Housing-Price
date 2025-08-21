@@ -1,0 +1,17 @@
+
+```txt
+# Core
+streamlit>=1.32
+pandas>=2.1
+numpy>=1.24
+scipy>=1.10
+joblib>=1.3
+
+# ML libraries
+# IMPORTANT: pickled sklearn pipelines can be version-sensitive.
+# If loading fails, pin to the exact version used at training time, e.g.:
+# scikit-learn==1.3.2
+scikit-learn>=1.2,<1.4
+
+# LGBM model support
+lightgbm>=3.3
