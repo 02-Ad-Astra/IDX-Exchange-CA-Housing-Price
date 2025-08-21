@@ -11,8 +11,10 @@ Single‐residence housing price prediction in California, using **hybrid models
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+```
 
 ## File Structure
+```bash
 Hybrid_App/
 ├─ app.py
 ├─ preprocessing.py              # compatibility shim → re-exports from rf/RF_preprocessing.py
@@ -27,6 +29,7 @@ Hybrid_App/
    ├─ RF_preprocessor.pkl
    ├─ RF_price_bounds.pkl      
    └─ LGBM_model.pkl
+```
 
 ## Disclaimer
 This is just a demo app for exploring hybrid models. It can make mistakes :)
