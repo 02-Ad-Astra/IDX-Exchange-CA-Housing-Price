@@ -1,6 +1,6 @@
 # Hybrid Real Estate Price App (LGBM ↔ RF)
 
-Streamlit App (Use this link to try the demo): https://idx-exchange-ca-housing-price-emutxgkxnyargbdvmkq6e7.streamlit.app/
+Streamlit App: https://idx-exchange-ca-housing-price-emutxgkxnyargbdvmkq6e7.streamlit.app/
 
 ## Purpose
 Single‐residence housing price prediction in California, using **hybrid models**:
